@@ -1,0 +1,13 @@
+#
+# This file sets up include directories, link directories, and
+# compiler settings for a project to use OpenIGTLinkRTSP.  It should not be
+# included directly, but rather through the OpenIGTLinkRTSP_USE_FILE setting
+# obtained from OpenIGTLinkRTSPConfig.cmake.
+#
+
+
+# Add include directories needed to use OpenIGTLinkRTSP.
+INCLUDE_DIRECTORIES(BEFORE ${OpenIGTLinkRTSP_INCLUDE_DIRS})
+
+# Add link directories needed to use OpenIGTLinkRTSP.
+LINK_DIRECTORIES(${OpenIGTLinkRTSP_LIBRARY_DIRS})

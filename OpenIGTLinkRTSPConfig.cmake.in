@@ -1,0 +1,8 @@
+# The location of the UseOpenIGTLink.cmake file.
+# The OpenIGTLinkRTSP include file directories.
+SET(OpenIGTLinkRTSP_INCLUDE_DIRS "@OpenIGTLinkRTSP_INCLUDE_DIRS_CONFIG@")
+# The OpenIGTLinkRTSP library directories.
+SET(OpenIGTLinkRTSP_LIBRARIES "@OpenIGTLinkRTSP_LIBRARIES_CONFIG@")
+SET(OpenIGTLinkRTSP_LIBRARY_DIRS "@OpenIGTLinkRTSP_LIBRARY_DIRS_CONFIG@")
+
+SET(OpenIGTLinkRTSP_USE_FILE "@OpenIGTLinkRTSP_USE_FILE@")
